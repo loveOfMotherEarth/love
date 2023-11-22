@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      background-color: #191919;
+      font-family: Arial, sans-serif;
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    h1 {
+      color: #ffcc00;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      text-align: center;
+      background-color: #191919;
+      padding: 10px 0;
+      z-index: 1;
+    }
+
+    h2 {
+      color: #bbb;
+      position: fixed;
+      top: 50px; /* Adjust as needed */
+      width: 100%;
+      text-align: center;
+      background-color: #191919;
+      padding: 10px 0;
+      z-index: 1;
+    }
+
+    .image-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+      margin-top: 100px; /* Adjust as needed */
+    }
+
+    .image-container {
+      position: relative;
+      overflow: hidden;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    }
+
+    .image-container:hover img {
+      transform: scale(1.2);
+    }
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.5s ease;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Terra's Love</h1>
+  <h2>Choose Categories</h2>
+
+  <div class="image-grid">
+    <div class="image-container" onclick="chc()">
+      <img src="https://loveofmotherearth.github.io/vaishu/vaishu.jpg" alt="Image 1">
+    </div>
+
+    <div class="image-container" onclick="chc()">
+      <img src="https://loveofmotherearth.github.io/surekha/surekha.jpg" alt="Image 2">
+    </div>
+
+    <a href="https://loveofmotherearth.github.io/sumaSingle/terra.suma.find.html" ><div class="image-container">
+      <img src="https://loveofmotherearth.github.io/sumaSingle/suma single smile blue shirt-min.jpg" alt="Image 3">
+    </div>
+    </a>
+
+    <div class="image-container" onclick="chc()">
+      <img src="/storage/emulated/0/papa (1)/[000978].jpg" alt="Image 4">
+    </div>
+    
+    <div class="image-container" onclick="chc()">
+    <img src="/storage/emulated/0/papa (1)/[000986].jpg" alt="Image 3">
+    </div>
+    
+    <div class="image-container" onclick="chc()">
+    <img src="/storage/emulated/0/papa (1)/[000978].jpg" alt="Image 4">
+    </div>
+    
+    
+  </div>
+
+<script type="text/javascript">
+
+
+function chc(){
+
+alert("Terra's Best Minds 🧠♥ are working on it \n️Will Launch Soon...");
+}
+
+
+</script>
+</body>
+</html>
